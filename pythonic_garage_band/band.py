@@ -18,9 +18,12 @@ class Guitarist:
 
     def __repr__(self):
         return f"Guitarist instance. Name = {self.name}"
-    
+
     def get_instrument(self):
         return "guitar"
+
+    def play_solo(self):
+        return "face melting guitar solo"
 
     pass
 
@@ -34,9 +37,12 @@ class Bassist:
 
     def __repr__(self):
         return f"Bassist instance. Name = {self.name}"
-    
+
     def get_instrument(self):
         return "bass"
+
+    def play_solo(self):
+        return "bom bom buh bom"
 
     pass
 
@@ -50,8 +56,11 @@ class Drummer:
 
     def __repr__(self):
         return f"Drummer instance. Name = {self.name}"
-    
+
     def get_instrument(self):
         return "drums"
+
+    def play_solo(self):
+        return "rattle boom crash"
 
     pass
