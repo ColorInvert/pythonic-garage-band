@@ -2,14 +2,16 @@ class Band:
     def __init__(self, name, members):
         self.name = name
         self.members = members
+        Band.instances.append(self)
 
     def play_solos(self):
         solos = []
         for i in self.members:
             solos.append(i.play_solo())
         return solos
-    
-    
+
+    def to_list():
+      return Band.instances
 
 
 class Musician:
